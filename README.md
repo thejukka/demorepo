@@ -1,6 +1,6 @@
 # demorepo
 
-Täällä siis demoja esim. hybridisoftasta, eli:
+Täällä demoja esim. hybridisoftasta, eli:
 
 * WebApp -kansiossa on itse websofta
 * Android -kansiossa on oleellisimmat kooditiedostot mobiilisoftalle, joka lataa dynaamisen web-käyttöliittymän.
