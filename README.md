@@ -8,3 +8,5 @@ Täällä demoja esim. hybridisoftasta, eli:
 Näissä on täysin peruselementeistä tehtyjä omia JavaScript -luokkia, joita on helposti irrotettavissa ja näin käytettävissä myös lukuisissa muissa sovelluksissa.
 
 Android -softa on pääasiassa tarkoitettu uusimmille Androideille (Lollipop, 5.0+), mutta huomioon on otettu myös vanhemmat versiot (3.2.2+)
+
+On myös olemassa UI -projektini nimeltä Juile, osoitteessa: http://thejukka.ylivieska.org/juile/
