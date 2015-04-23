@@ -2,11 +2,10 @@
 
 Täällä demoja esim. hybridisoftasta, eli:
 
-* WebApp -kansiossa on itse websofta
-* Android -kansiossa on oleellisimmat kooditiedostot mobiilisoftalle, joka lataa dynaamisen web-käyttöliittymän.
+* WebApp -kansiossa on itse websofta, joka rakentaa dynaamisen käyttöliittymän ja kommunikoi palvelimen kanssa.
+* 
+* Android -kansiossa on Android -sovellus, joka lataa web-käyttöliittymän ja lukiessaan NFC-kortin kirjaa käyttäjän järjestelmään ja statuksen mukaan eri valikoihin.
 
-Näissä on täysin peruselementeistä tehtyjä omia JavaScript -luokkia, joita on helposti irrotettavissa ja näin käytettävissä myös lukuisissa muissa sovelluksissa.
+WebApp hyödyntää perus oliopohjaista JavaScriptiä ja HTML5+CSS.
 
-Android -softa on pääasiassa tarkoitettu uusimmille Androideille (Lollipop, 5.0+), mutta huomioon on otettu myös vanhemmat versiot (3.2.2+)
-
-On myös olemassa UI -projektini nimeltä Juile, osoitteessa: http://thejukka.ylivieska.org/juile/
+Android -softa on ns. "kioskisovellus", eli se pyrkii piiloittamaan järjestelmäfunktiot ja lukitsee ohjelman niin, ettei peruskäyttäjä pääse sitä sammuttamaan.
